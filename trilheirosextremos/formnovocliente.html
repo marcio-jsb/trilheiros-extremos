@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="formnovocliente.css" type="text/css" >
+    <title>Cadastro de clientes</title>
+</head>
+
+<body>
+<h1> Cadastro de Clientes </h1>
+<hr>
+		
+<div id="formulario">
+			
+	<form class="subform" action="salvarcliens.php" method = "POST">
+			
+				
+                    <p>
+					<label for="nome" class="campo"> Nome Completo</label>
+					<input type="text"  name="nome" id="nome" >
+				    </p>
+
+					<p>
+					<label for="data_nasc" class="campo"> Data de nascimento </label>
+					<input type="date" class="datanasc" name="data_nasc" >
+					</p>
+
+                    <p>
+					<label for="rg" class="campo"> RG </label>
+					<input type="number" name="rg">
+					</p>
+
+
+                    <p>
+					<label for="cpf" class="campo"> CPF </label>
+					<input type="number" name="cpf" id="cpf"><br>
+					</p>
+
+				
+					<p>
+					<label for="endereco" class="campo"> Endereço </label>
+					<input type="text"  name="endereco"  id="endereco">
+					</p>
+
+					<p>
+                    <label for="estado" class="campo"> Estado </label>
+					<input type="text" name="estado" id="estado">
+					</p>
+
+					<p>
+                    <label for="email" class="campo"> E-mail </label>
+				    <input type="text" name="email" id="email">
+					</p>
+
+					<P>
+                    <label for="telefone" class="campo"> Telefone </label>
+					<input type="text" name="telefone" >
+					</p>
+
+					<p>
+					<label for="usuario" class="campo">Usuario </label>
+					<input type="text" name="usuario">
+					</p>
+
+					<p>
+                    <label for="senha" class="campo">Senha </label>
+					<input type="password" name="senha" >
+					</p>
+
+
+					<div class="gbutao">
+					   
+							<input type="submit" value = "Cadastrar" class="botao">
+							<input type="reset" value = "Limpar" class="botao">
+					 
+				    </div>
+
+			
+				
+	</form>
+			
+</div>
+</body>
+</html>
+
+
+</body>
+</html>

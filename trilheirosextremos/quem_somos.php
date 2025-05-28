@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilophp.css" type="text/css">
+    <link rel="stylesheet" href="text_quemsomos.css" type="text/css">
+    <title>Trilheiros extremos</title>
+</head>
+<body>
+<div id="topo">
+   <header>
+       
+        <div id="logotipo">
+         <img src="img/logotipo.png">
+         <h3>Trilheiros extremos</h3>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.php"> HOME </a></li>
+            <li><a href="quem_somos.php" style="color:#6B8E23; border-bottom: solid #6b8e23 3px;"> QUEM SOMOS </a></li>
+            <li><a href="atividades.php"> ATIVIDADES </a></li>
+            <li><a href="contato.php"> CONTATOS </a></li>
+          </ul>
+        </nav>
+        <div id="log">
+
+       
+        <div id="bloguinho" > <form  method="post" action="sairf.php?action=sair"><input type="submit"  value="sair"></Form></div>
+        <div id="nloguinho"> <?php 
+                  session_start();
+	                echo $_SESSION['usuario'];
+              ?>
+         </div>
+        </div>
+    
+   </header> 
+</div>
+<br><br><br>
+<article>
+    <h1>Quem somos</h1>
+    <p>Somos um grupo de guias com anos de expêriencia em montanhismo. O montanhismo são atividades de rapel e caminhada em trilha, as atividades são realizadas geralmente aos finais de semana.O grupo tambem possue os seguintes cursos: rapel, primeiros socorros e montanhismo.So admitimos guias que tenha realizado trilhas durante anos e cursos feitos da area. </p>
+    <br>
+    <hr>
+    <br>
+    <p>Motivos para pratica de montanhismo:</p>
+
+  <table>
+    <tr><td>atividades</td><td>o guia só pode marcar atividade se tiver feito antes</td></tr>
+    <tr><td>segurança</td><td>os guias possuem o material necessario para minimizar ao maximo os riscos e tambem passam as informações necessarias.</td></tr>
+    <tr><td>saúde</td><td>proporciona bem estar</td></tr>
+    <tr><td>dificuldades</td><td>São marcadas várias atividades com diferentes niveis de dificuldades.Os niveis das atividades variam de leve a pesado. </td></tr>
+   </table>
+   <br>
+   <h1> benefícios de fazer trilhas:</h1>
+    <dl>
+    <dt> Conhecer lugares incríveis</dt>
+    
+      <dd> As trilhas são uma ótima maneira de conhecer novos lugares e estar junto a natureza. O Brasil possui muita beleza natural, explore e conheça também através de trilhas.<dd>
+    
+     
+    <dt>Felicidade e bem-estar</dt>
+    
+      <dd>Sair da rotina já é motivo para melhorar o humor e deixar as pessoas mais felizes. Se for junto a natureza, melhor ainda!</dd>
+    
+      <dd>Um estudo publicado na revista internacional Landscape and Urban Planning mostrou que pessoas que caminharam 50 minutos em meio a natureza relataram se sentir menos ansiosas e mais felizes em comparação com outras que andaram perto de veículos.</dd>
+    
+     
+    <dt>Coração saudável</dt>
+    
+      <dd>Ao fazer trilhas você tem um risco menor de contrair doenças cardíacas já que o exercício estimula o sistema cardiovascular fazendo com que o coração bombeie mais sangue para o corpo. Os vasos e artérias também ficam mais flexíveis, saudáveis e com uma menor probabilidade de problemas.</dd>
+    
+    <dt>Preparação para outros esportes</dt>
+      <dd>A caminhada e a corrida melhoram o condicionamento físico, portanto fazer trilhas pode ajudar no seu desempenho ao realizar outras atividades esportivas.</dd>
+      <dd>Pernas mais torneadas e abdomen fortalecido</dd>
+      <dd>Como muitas trilhas contém trechos de subidas e descidas, essa é uma ótima combinação de estímulos para as pernas, exercitando toda a parte inferior que inclui glúteos, quadríceps e outros músculos.</dd>
+      <dd>Ao caminhar em terrenos mais duros e inclinados exige-se que os músculos do abdômen trabalhem mais para manter o seu corpo estabilizado e reto.</dd>
+    
+    <dt>Capacidade de improvisar</dt>
+      <dd>Cenários diferentes e se deparar com novas situações a todo momento são estímulos incríveis para se fazer trilhas. Ao fazer uma trilha você se adapta a novos trajetos, improvisa maneiras diferentes de passar por obstáculos. São dificuldades vencidas de uma forma prazerosa e que muitas vezes trazem aquela sensação incrível de que todo o esforço valeu a pena ao ver uma linda cachoeira, aquela paisagem incrível do alto da montanha.</dd>
+    
+    <dt>Combate a insônia, a ansiedade e a depressão</dt>
+      <dd>A prática de atividades físicas regulares pode ajudar muito nesses quesitos. Mas a trilha traz estímulos extras com o contato com a natureza e superação de desafios, ajudando muito nesses problemas e melhorando a qualidade de vida no geral.</dd>
+    
+   <dt>Fazer novas amizades</dt>
+    
+      <dd>Convidar amigos para fazer uma trilha com você é incrível, mas que tal participar de grupos de trilhas e fazer novos amigos? As experiências trocadas com novas pessoas podem te trazer dicas de outras trilhas, conhecer histórias e quem sabe uma nova parceria para as próximas trilhas?</dd>
+    
+  <dt>Desafiar os próprios limites</dt>
+      <dd>A sensação de vencer um novo desafio é maravilhosa. Fazer trilhas pode causar um certo vício (do bem!), você começa por trilhas mais rápidas e de fácil intensidade e vai querendo mais, desafiando os seus limites e percorrendo novos caminhos com novos desafios e aventuras.</dd>
+  </dl>
+     
+    <p>Bom, esses são só alguns dos benefícios de fazer trilhas, esperamos que tenham gostado de saber um pouco mais sobre o assunto.</p>
+
+</article>
+<br><br><br>
+
+
+<div id="r1">
+
+</div>
+<div id="r2">
+  <p>Contatos</p>
+  <br><br><br><br>
+  <h3>Trilheiros extremos<br>Tel (21) 985747278</h3>
+  <br>
+  <ul>
+    <li><img src="img/facebook.png"> </li>
+    <li><img src="img/instagram.png"></li>  
+    <li><img src="img/115757-removebg-preview.png"></li>
+    <li><img src="img/downloadsap.png"></li>
+  </ul>
+</div>
+<div id="r3">
+  <br>
+  <font><p>Desenvolvido por Marcio Jose; Todos os direitos reservados </p> </font>
+</div>
+</body>
+</html>

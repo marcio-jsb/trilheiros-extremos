@@ -1,0 +1,16 @@
+
+article {margin:0 auto;
+         width:80%;
+         background:rgba(148, 153, 133, 0.145);
+         padding:20px;
+         box-shadow:-2px 0px 10px rgb(63, 89, 24),2px 0px 10px rgb(63, 89, 24);}
+
+h1{text-align: center;}
+
+article p{text-align: justify;
+        text-indent:20px;
+        padding:20px;}
+table { margin-left:20px;}
+table td{text-align: center;
+         background-color:  rgb(128, 139, 103);
+         padding: 10px;}

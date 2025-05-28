@@ -1,0 +1,40 @@
+#cativ{
+    margin:auto;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    
+
+}
+
+.ativ{
+    width:183px;
+    height:auto;
+    
+  
+}
+
+img{
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.ativ p{
+    padding:10px;
+    background-color: #63a56d;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: -5px;
+}
+
+
+body{
+    background-color: #d4e3c9;
+}
+
+#cativ a{
+    text-decoration: none;
+    color: black;
+}

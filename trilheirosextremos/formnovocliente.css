@@ -1,0 +1,84 @@
+h1{text-align: center;}
+
+
+
+.campo{
+ display:inline-block;
+ width:140px;
+ vertical-align: top;
+ text-align: right;
+ margin-right: 10px;
+
+ padding: 1px;
+ padding-right: 5px;
+}
+
+
+.gbutao{
+    text-align: center;
+}
+
+#formulario{
+    width: 40%;
+    margin:auto;
+    background-color: rgb(146, 177, 167);
+    padding: 20px;
+}
+#estado{
+    width: 20px;
+}
+#nome, #endereco,#email{
+    width: 300px;
+}
+.botao{
+    background-color:#519851;
+    border-radius: 20px;
+    border:none;
+    padding:10px;
+    
+}
+body{
+    background-color: #b3e1b3;
+}
+
+@media only screen and (max-width: 420px) {
+h1{text-align: center;}
+
+
+
+.campo{
+ display:inline; 
+ vertical-align: top;
+ 
+}
+
+
+.gbutao{
+    text-align: center;
+}
+
+#formulario{
+    width: 85%;
+    margin:auto;
+    background-color: rgb(146, 177, 167);
+    padding: 20px;
+}
+#estado{
+    width: 20px;
+}
+#nome, #endereco,#email{
+    width: 290px;
+}
+.botao{
+    background-color:#519851;
+    border-radius: 20px;
+    border:none;
+    padding:10px;
+    
+}
+body{
+    background-color: #b3e1b3;
+}
+
+
+}

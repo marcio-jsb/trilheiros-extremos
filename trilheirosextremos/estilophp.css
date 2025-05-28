@@ -1,0 +1,186 @@
+body{
+	margin: 0; 
+	width: 100%; 
+}
+
+* { margin: 0; padding: 0; }
+
+#logotipo img{
+    width:110px;
+    height:60px;
+}
+
+#log img{
+    width:100px;
+    height:100px;
+}
+
+
+header ul li,#r2 ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+
+header ul a{
+    text-decoration: none;
+    color:#363636;
+    padding: 10px 0px 5px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+header{
+    margin:auto;
+    width: 90%;
+    text-align: center;
+ }
+
+header a:hover{
+	color:#6B8E23;
+	border-bottom: solid #6b8e23 3px;
+}
+#topo{
+    width: 100%;
+    height: auto;
+    background-color: #72B839;
+    overflow: hidden;
+   
+}
+
+#logotipo{
+    float: left;
+    margin-top: 12px;
+}
+
+nav{
+    display:inline-block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#log{
+   float:right;
+   margin-top: 50px;
+   width: 150px;
+
+
+   
+
+}
+
+#bloguinho{
+    float:left;
+}
+#r1{    
+    width: 100%;
+	height: 100px;
+	float: left;
+    background-color: #426B21;
+	
+}
+#r2{
+	width: 100%;
+	height: 200px;
+	float: left;
+    background-color:#72B839;
+	
+}
+
+
+#r2 p{
+    
+        float: left;
+        font-size: 17px;
+        color: black;
+        margin-left: 5%;
+        margin-top: 2%;
+        font-family: 'Roboto', sans-serif;
+    
+}
+
+#r2 h3{
+	color: black;
+	font-size: 15px;
+	margin-left: 5%;
+		
+    clear: both;
+}
+
+#r2 img{
+    width:26px;
+    height:26px;
+}
+#r2 ul{
+    margin-left:4% ;
+}
+#r3{
+	width: 100%;
+	height: 60px ;
+	float: left;
+	background-color:#6B7067;
+}
+
+font{
+    color:black;
+   text-align: center;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+	width: 15px;
+}
+::-webkit-scrollbar-track-piece{
+	background-color: #ebebeb;
+}
+::-webkit-scrollbar-thumb{
+	background-color:#828282;
+	outline: 2px solid #ebebeb;
+	outline-offset: -2px;
+	border: .1px solid #828282;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(107, 142, 35);
+    border: .1px solid rgb(107, 142, 35);
+}
+
+
+input[type='submit']{
+	width: 70px;
+	background-color:#426B21;
+    border:1px solid #426B21;
+	border-radius: 10px;
+	color:#ebebeb;
+}
+.loguinho{
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 420px) {
+  
+    header ul a{
+        text-decoration: none;
+        color:#363636;
+        padding: 10px 0px 5px 0px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+       
+    
+    }
+
+    header ul li{
+       margin-bottom: 15px;
+    }
+    #logotipo,#log{
+        float:none;
+    }
+    #log{
+        margin-bottom: 10px;
+        display:inline-block;
+        text-align: center;
+     }
+
+}
